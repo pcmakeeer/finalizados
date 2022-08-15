@@ -166,6 +166,7 @@ footer > p {
     font-weight: bolder;
     padding: 10px;
     color: white;
+    margin: auto;
 }
 
 ul {
