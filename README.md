@@ -1,5 +1,5 @@
 # finalizados
- Primeiros projetos elaborados<br>
+ --<strong>PRIMEIROS PROJETOS ELABORADOS</strong>--<br>
  <a href="https://pcmakeeer.github.io/finalizados/google-glass/">Google-Glass</a><br>
  <a href="https://pcmakeeer.github.io/finalizados/landing-page/">Landing-Page</a><br>
  <a href="https://pcmakeeer.github.io/finalizados/android-page/">Android-Page</a>
