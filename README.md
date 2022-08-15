@@ -1,3 +1,5 @@
 # finalizados
- Primeiros projetos foram finalizados agora vou aprender como gerenciar meu repositório!
- <a href="https://pcmakeeer.github.io/finalizados">Portofolio dos Projetos</a>
+ Primeiros projetos elaborados
+ <a href="https://pcmakeeer.github.io/finalizados/google-glass/">Google-Glass</a>
+ <a href="https://pcmakeeer.github.io/finalizados/landing-page/">Landing-Page</a>
+ <a href="https://pcmakeeer.github.io/finalizados/android-page/">Android-Page</a>
