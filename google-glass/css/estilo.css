@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 @font-face {
     font-family:'FonteLogo';
-    src: url("../_fonts/computer-font.ttf");
+    src: url("../fonts/computer-font.ttf");
 }
 
 body {
