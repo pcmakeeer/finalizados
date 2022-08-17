@@ -173,12 +173,13 @@ ul {
     display: inline-block;
     list-style-position: inside;
     columns: 2;
+    list-style: none;
 }
 
 li {
     font-weight: bolder;
     margin: auto;
-    list-style: none;
+    padding-left: 50px;
 }
 
 
