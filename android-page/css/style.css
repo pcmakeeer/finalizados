@@ -178,6 +178,7 @@ ul {
 li {
     font-weight: bolder;
     margin: auto;
+    list-style: none;
 }
 
 
