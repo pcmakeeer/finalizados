@@ -61,3 +61,11 @@ iframe#tela {
     width: 267px;
     height: 471px;
 }
+
+footer img {
+    height: 20px;
+    display: block;
+    margin-left: 49%;
+    padding: 5px
+    
+}
