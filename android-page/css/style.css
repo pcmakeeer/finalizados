@@ -172,6 +172,7 @@ footer > p {
 ul {
     display: inline-block;
     list-style-position: inside;
+	list-style-type: none;
     columns: 2;
     list-style: none;
 }
