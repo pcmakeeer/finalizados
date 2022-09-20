@@ -1,4 +1,4 @@
 # [ Projetos Finalizados ]
- [<strong>Primeiros projetos na web</strong>]
+ [<strong>Primeiros projetos na web</strong>]<br>
  <a href="https://pcmakeeer.github.io/finalizados/google-glass/" target="_blank">Google Glass</a>
 
