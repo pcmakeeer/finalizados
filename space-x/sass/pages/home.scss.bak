@@ -14,7 +14,7 @@
 }
 
 .tittle {
-    padding-top: 250px;
+    padding-top: 200px;
 }
 
 .shortTittle {
@@ -35,7 +35,7 @@
 
 @media (max-width:465px) {
     .tittle {
-        padding-top: 120px;
+        padding-top: 100px;
     }
 
     .shortTittle {
