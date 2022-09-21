@@ -1,0 +1,210 @@
+.container00 {
+    &.container05 {
+        background-image: url("../../imagens/falcon9/01.jpg") ;
+    }
+    &.container06 {
+        background-image: url("../../imagens/falcon9/02.jpg") ;
+    }
+    &.container07 {
+        background-image: url("../../imagens/falcon9/08.jpg") ;
+    }
+}
+
+.container00 {
+    &.carrossel01 {
+        background-image: url("../../imagens/falcon9/03.jpg");
+    }
+    &.carrossel02 {
+        background-image: url("../../imagens/falcon9/04.jpg") ;
+    }
+    &.carrossel03 {
+        background-image: url("../../imagens/falcon9/05.jpg") ;
+    }
+    &.carrossel04 {
+        background-image: url("../../imagens/falcon9/06.jpg") ;
+    }
+    &.carrossel05 {
+        background-image: url("../../imagens/falcon9/07.jpg") ;
+    }
+}
+
+.tittlectt {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tittlefalcon9 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 6rem;
+}
+
+.subtittlefalcon9 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.carouselText {
+    background-color: black;
+    
+}
+
+.numbers {
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & .tittlenumber {
+        font-size: 90px;
+    }
+    & .subtittlenumber {
+        font-size: 20px;
+    }
+}
+
+.falcon9Desc {
+    width: 640px;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.containerFalcon9Desc {
+    display: grid;
+    height: 90vh;
+    align-items: center;
+    justify-content: left;
+}
+
+#overViewPosition {
+    width: 500px;
+    margin-left: 13%;
+    padding-top: 15%;
+}
+
+.downloadDesc { 
+    padding-top: 240px;
+    height: 85vh;
+    & a {
+        text-decoration: none;
+        color: white;
+    }
+    & a:hover {
+        color: $table-item;
+        text-decoration: underline;
+    }
+}
+
+.carousel-item > img {
+    height: 100vh;
+}
+
+@media (max-width:1024px) {
+    .numbers {
+        & .tittlenumber {
+            font-size: 85px;
+        }
+        & .subtittlenumber {
+            font-size: 20px;
+        }
+    }
+    .falcon9Desc {
+        width: 500px;
+        font-size: 22px;
+        line-height: 50px;
+    }
+    #overViewPosition {
+        width: 450px;
+        margin-left: 5%;
+        padding-top: 18%;
+        padding-bottom: 10%;
+    }
+}
+   
+@media (max-width:768px) {
+    .numbers {
+        & .tittlenumber {
+            font-size: 80px;
+        }
+        & .subtittlenumber {
+            font-size: 18px;
+        }
+    }
+    .falcon9Desc {
+        width: auto;
+
+    }
+    #overViewPosition {
+        width: 380px;
+        margin-left: 5%;
+        padding-top: 22%;
+    }
+    
+
+}
+
+@media (max-width:576px) {
+    .numbers {
+    height: 80vh;
+    }
+    .falcon9Desc {
+        width: auto;
+
+    }
+    #overViewPosition {
+        width: 380px;
+        margin-left: 5%;
+        padding-top: 22%;
+    }
+    .tittlefalcon9 {
+        font-family: 'Rubik', sans-serif;
+        font-weight: bold;
+        font-size: 5rem;
+    }
+    #button1 {
+    font-size: 10px;
+    }
+    
+}
+
+@media (max-width:412px) {
+    .tittlefalcon9 {
+        font-size: 4rem;
+    }
+    
+}
+
+@media (max-width:411px) {
+    #overViewPosition {
+        width: auto;
+    }
+    #button1 {
+        font-size: 8px;
+    }
+    .downloadDesc > p{
+        font-size: 13px;
+    }
+    
+}
+
+@media (max-width:320px) {
+    .tittlefalcon9 {
+        font-size: 3rem;
+    }
+    .subtittlefalcon9 {
+        font-size: 10px;
+    }
+    #button1 {
+        font-size: 6px;
+    }
+    .downloadDesc > p{
+        font-size: 12px;
+    }
+    #overViewPosition {
+    width: auto;
+    }
+    
+}
+
+
