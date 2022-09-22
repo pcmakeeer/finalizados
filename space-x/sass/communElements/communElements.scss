@@ -69,6 +69,19 @@
     }
 }
 
+.downloadDesc { 
+    padding-top: 240px;
+    height: 85vh;
+    & a {
+        text-decoration: none;
+        color: white;
+    }
+    & a:hover {
+        color: $table-item;
+        text-decoration: underline;
+    }
+}
+
 // Media Query //
 
 @media (max-width:405px) {
