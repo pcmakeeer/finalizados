@@ -12,6 +12,7 @@
     <!--CSS SASS-->
     <link rel="stylesheet" href="sass/css/style.css">
     <!--LibText-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body class="bg-black">
@@ -39,29 +40,35 @@
                 </nav>
             </header>
         </div>
-            <div class="container text-center tittlectt">
+            <div class="container text-center tittlectt" data-aos="fade-up" data-aos-duration="1500">
                 <p class="h1 tittlefalcon9">FALCON 9</p>
                 <p class="h5 subtittlefacon9">PRIMEIRA CLASSE DE FOGUETES DE ORBITA CAPAZ DE VOLTAR</p>
             </div>
     </div>
     <div class="container-fluid numbers">
         <div class="row text-center">
-            <div class="col-sm col1">
+            <div class="col-sm col1" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">
                 <p class="h1 tittlenumber">126</p>
                 <p class="subtittlenumber">LANÇAMENTOS TOTAIS</p>
             </div>
-            <div class="col">
+            <div class="col" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">
                 <p class="h1 tittlenumber">86</p>
                 <p class="subtittlenumber">DESEMBARQUES TOTAIS</p>
             </div>
-            <div class="col-sm col3">
+            <div class="col-sm col3" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">
                 <p class="h1 tittlenumber">68</p>
                 <p class="subtittlenumber">FOGUETES RECUPERADOS</p>
             </div>
         </div>
     </div>
     <div class="container-fluid container00 container06">
-            <div class="container containerFalcon9Desc">
+            <div class="container containerFalcon9Desc" data-aos="fade-right" data-aos-duration="1500">
                 <p class="falcon9Desc">
                     O Falcon 9 é um foguete reutilizável de dois estágios projetado e fabricado pela SpaceX para o transporte confiável e seguro de pessoas e cargas úteis para a órbita da Terra e além. Falcon 9 é o primeiro foguete reutilizável de classe orbital do mundo. A capacidade de reutilização permite que a SpaceX refile as partes mais caras do foguete, o que, por sua vez, reduz o custo do acesso ao espaço.
                 </p>
@@ -261,7 +268,7 @@
             </div>
         </div>
     <div class="container-fluid container00 container07">
-        <div class="container" id="overViewPosition">
+        <div class="container" id="overViewPosition" data-aos="fade-right" data-aos-duration="1500">
             <p class="subtittleovewview">FALCON 9</p>
             <p class="h3 tittleovewview">MERLIN</p>
             <p>Merlin é uma família de motores de foguete desenvolvidos pela SpaceX para uso em seus veículos de lançamento Falcon 1, Falcon 9 e Falcon Heavy. Os motores Merlin usam querosene de grau de foguete (RP-1) e oxigênio líquido como propelentes de foguete em um ciclo de energia de gerador a gás. O motor Merlin foi originalmente projetado para recuperação e reutilização.</p>
@@ -335,10 +342,11 @@
           <span class="visually-hidden">Próximo</span>
         </button>
     </div>
-    <div class="container-fluid text-center downloadDesc">
+    <div class="container-fluid text-center downloadDesc" data-aos="fade-right"
+    data-aos-offset="300"data-aos-easing="ease-in-sine">
         <p>Para mais informações sobre os serviçoes entre em contato com <a href="https://www.linkedin.com/in/guilherme-almeida-553957244/" target="_blank">guijorran1@hotmail.com</a></p>
-        <button type="button" class="btn btn-outline-light btn-sm" id="button1">BAIXAR GUIA DO USUÁRIO</button>
-        <button type="button" class="btn btn-outline-light btn-sm" id="button1">CAPACIDADES E SERVIÇOS</button>
+        <button type="button" class="btn btn-outline-light btn-sm" data-aos="flip-up" id="button1">BAIXAR GUIA DO USUÁRIO</button>
+        <button type="button" class="btn btn-outline-light btn-sm" data-aos="flip-up" id="button1">CAPACIDADES E SERVIÇOS</button>
     </div>
     <footer class="container-fluid footer">
         <span class="me-3 copy">Guilherme Almeida &copy;2022</span>
@@ -346,7 +354,11 @@
         <a href="https://www.instagram.com/guiilhermejordan/" target="blank">Instagram</a>
         <a href="mailto:guijorran1@hotmail.com" target="_blank">Email</a>
     </footer>
-    
+    <!--LibText-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!--BootStrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

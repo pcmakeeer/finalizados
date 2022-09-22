@@ -12,6 +12,7 @@
     <!--CSS SASS-->
     <link rel="stylesheet" href="sass/css/style.css">
     <!--LibText-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body>
@@ -38,31 +39,31 @@
                 </nav>
             </header>
         </div>
-        <div class="container tittle">
+        <div class="container tittle" data-aos="fade-up" data-aos-duration="1500">
             <p class="h5" id="lancamento">LANÇAMENTO A CAMINHO</p>
             <p class="h1 shortTittle">MISSÃO EQUIPE-3</p>
             <button type="button" class="btn btn-outline-light btn-lg" id="button">SAIBA MAIS</button>
         </div>
-        <div class="text-center">
+        <div class="text-center" data-aos="fade-up" data-aos-duration="1500">
             <img class="arrowdown" src="imagens/home/arrowDown.gif" alt="Arrow">
         </div>
     </div>
     <div class="container-fluid container00 container02">
-        <div class="container tittle">
+        <div class="container tittle" data-aos="fade-right" data-aos-duration="1500">
             <p class="h5" id="lancamento">MISSÃO CONCLUÍDA</p>
             <p class="h1 shortTittle">MISSÃO EQUIPE-2 <br>RETORNOU PARA A TERRA</p>
             <button type="button" class="btn btn-outline-light btn-lg" id="button">SAIBA MAIS</button>
         </div>
     </div>
     <div class="container-fluid container00 container03">
-        <div class="container tittle">
+        <div class="container tittle" data-aos="fade-down" data-aos-duration="1500">
             <p class="h5" id="lancamento">MISSÃO CONCLUÍDA</p>
             <p class="h1 shortTittle">DRAGON RETORNOU <br>PARA A TERRA</p>
             <button type="button" class="btn btn-outline-light btn-lg" id="button">SAIBA MAIS</button>
         </div>
     </div>
     <div class="container-fluid container00 container04">
-        <div class="container tittle">
+        <div class="container tittle" data-aos="fade-down-right" data-aos-duration="1500">
             <p class="h1 shortTittle" id="lancamento-mid">STARSHIP POUSA ASTRONAUTAS DA<br> NASA NA LUA</p>
             <button type="button" class="btn btn-outline-light btn-lg" id="button">SAIBA MAIS</button>
         </div>
@@ -73,7 +74,11 @@
         <a href="https://www.instagram.com/guiilhermejordan/" target="blank">Instagram</a>
         <a href="mailto:guijorran1@hotmail.com" target="_blank">Email</a>
     </footer>
-    
+    <!--LibText-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!--BootStrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
