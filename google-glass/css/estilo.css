@@ -34,8 +34,8 @@ padding: 10px;
 
 header#cabecalho img#icone {
 position: absolute;
-left: 1000px;
-top: 75px;    
+left: 74%;
+top: 10%;    
 }
 
 header#cabecalho {
@@ -251,5 +251,4 @@ border-top: 1px solid #606060;
 footer#rodape p{
 text-align: center;
 }
-
 
