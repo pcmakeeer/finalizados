@@ -19,16 +19,19 @@
 
 .links > a {
   font-family: "Poppins", sans-serif;
-  color: black;
+  color: white;
+  background-color: black;
   font-weight: bolder;
   text-decoration: none;
+  padding: 7px;
+  border-radius: 5px;
 }
 
 .links > a:hover {
   background-color: white;
+  color: black;
   padding: 5px;
   border-radius: 5px;
-  text-decoration: underline;
   font-weight: bolder;
 }
 
