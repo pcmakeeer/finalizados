@@ -178,6 +178,9 @@ footer {
   .txt {
     width: 30%;
   }
+  .formtittle {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 425px) {
   .maintittle > h1 {
@@ -207,6 +210,9 @@ footer {
   }
   .txt {
     width: 40%;
+  }
+  .formtittle {
+    margin-bottom: -40px;
   }
 }
 @media (max-width: 325px) {

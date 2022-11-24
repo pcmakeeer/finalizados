@@ -175,8 +175,13 @@ footer {
         justify-content: center;
         align-items: center;
     }
+    
     .txt {
         width: 30%;
+    }
+
+    .formtittle {
+        margin-bottom: 30px;
     }
     
 }
@@ -212,8 +217,13 @@ footer {
     form {
         width: 80vw;
     }
+
     .txt {
         width: 40%;
+    }
+
+    .formtittle {
+        margin-bottom: -40px;
     }
 }
 
