@@ -20,11 +20,11 @@
 .links > a {
     font-family: 'Poppins', sans-serif;
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.267);
     font-weight: bolder;
     text-decoration: none;
     padding: 7px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .links > a:hover {
@@ -50,6 +50,11 @@
     justify-content: center;
     margin-top: 3%;
     margin-bottom: 5%;
+}
+
+.card-text {
+    font-weight: 450;
+    font-style: italic;
 }
 
 .border:hover {
@@ -84,6 +89,10 @@
     gap: 15px;
 }
 
+.formtittle {
+    margin-bottom: 30px;
+}
+
 main {
     background-color: rgba(85, 85, 85, 0.425);
 }
@@ -93,6 +102,16 @@ main {
     font-weight: bolder;
     font-size: 70px;
     margin-top: 10%;
+}
+
+.txt {
+    background-color: rgba(0, 0, 0, 0.711);
+    width: 23%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
 }
 
 .mainparagrafo {
@@ -156,6 +175,9 @@ footer {
         justify-content: center;
         align-items: center;
     }
+    .txt {
+        width: 30%;
+    }
     
 }
 
@@ -190,10 +212,16 @@ footer {
     form {
         width: 80vw;
     }
+    .txt {
+        width: 40%;
+    }
 }
 
 @media (max-width:325px) {
     .logo >h1 {
         font-size: 2rem;
+    }
+    .txt {
+        width: 50%;
     }
 }
