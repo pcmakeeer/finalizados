@@ -183,6 +183,9 @@ footer {
   .formtittle {
     margin-bottom: 30px;
   }
+  .ajuste {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 425px) {
   .maintittle > h1 {
