@@ -16,33 +16,12 @@
     font-size: 18px;
 }
 
-.links > a {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.267);
-    font-weight: bolder;
-    text-decoration: none;
-    padding: 7px;
-    border-radius: 3px;
-    border: 1px solid white;
-}
-
-.links > a:hover {
-    background-color: white;
-    color: black;
-    padding: 5px;
-    border-radius: 5px;
-    font-weight: bolder;
-    border: 1px solid black;
-}
-
 .logo >h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 4rem;
     color: black;
 }
-
 
 .cards {
     display: flex;
@@ -134,6 +113,60 @@ main {
     width: 450px;
 }
 
+.imgmenu {
+    width: 40px;
+}
+
+.menu-drop {
+    font-family: 'Poppins', sans-serif;
+}
+
+.dropdown {
+    display: none;
+}
+
+/*MENU2*/
+.menutwo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 4%;
+}
+
+.menu22 {
+    list-style-type: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 1px white;
+    text-decoration: none;
+}
+
+.menu22 > a{ 
+    text-decoration: none;
+}
+
+.menu22 > a:visited { 
+    color: white;
+}
+
+
+.menu22 > a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.menu22:hover {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border: solid 1px black;
+
+}
+
+/*----------------FIM----------------------*/
+
 form {
     width: 40vw;
 }
@@ -189,7 +222,30 @@ footer {
     .ajuste {
         margin-top: 20px;
     }
+
+    .att {
+        margin-left: 250px;
+        margin-top: -10px;
+    }
+
+    .menu2 {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
     
+}
+
+@media (max-width:992px) {
+    .menu2 {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
 }
 
 @media (max-width:425px) {
@@ -231,6 +287,13 @@ footer {
     .formtittle {
         margin-bottom: -40px;
     }
+    
+    .att {
+        margin-left: 250px;
+        margin-top: -80px;
+    }
+
+
 }
 
 @media (max-width:325px) {
